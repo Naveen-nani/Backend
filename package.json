@@ -1,0 +1,21 @@
+{
+  "name": "backend",
+  "version": "1.0.0",
+  "description": "Backend application",
+  "main": "index.js",
+  "scripts": {
+    "start" : "node src/app.js",
+    "dev" : "nodemon src/app.js"
+  },
+  "keywords": [
+    "Javscript",
+    "node",
+    "js",
+    "express"
+  ],
+  "author": "Naveen Gande",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^5.1.0"
+  }
+}
