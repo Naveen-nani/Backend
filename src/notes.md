@@ -14,4 +14,9 @@
 - workspace/collection - test api calls. 
 - try examples with get , POST , put and delete calls
 - try in postman.
-- 
+- try  params  with ? + and regex
+
+
+-Handiling with route handilers
+-using next()
+ 
