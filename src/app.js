@@ -2,27 +2,28 @@
 
 const express = require('express');
 const app = express();
-const  userAuth = require("./middleware/auth");
-const  adminAuth = require("./middleware/auth");
-
-// app.use("/admin", adminAuth);
 
 
 
-app.get("/user", userAuth ,(req, res, next) => {
-    res.send({ message: 'user added' })
-    //  next();
- })
 
-app.get("/admin/getData", (req, res, next) => {
-    res.send({ name: 'naveen', age: 24, city: 'hyd' })
-    //  next();
- })
+app.get('/getUserData', (req, res, next) => {
 
- app.get("/admin/deleteUser", (req, res, next) => {
-    res.send({ message: 'user got deleted' })
-    //  next();
- })
+    try {
+        throw new Error('tfyghjk');  // throw an error
+        res.send('Home Page');
+
+    } catch (error) {
+        res.status(500).send(('Some thing went wrong'));
+    }
+})
+
+
+
+
+
+
+
+
 
  //op - it will go on in postman and keep loading
  // we have to send some response or end the req res cycle
