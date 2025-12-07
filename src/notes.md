@@ -17,11 +17,5 @@
 - try  params  with ? + and regex
 
 
--Handiling with route handilers
--using next()
-- Know what is middile ware, add for admin, user , skip for login User
-
--- instead of mongodb we will use mongoose to connect to database
--- npm i mongoose
 
  
