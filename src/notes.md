@@ -9,12 +9,7 @@
 - Test the server by visiting `http://localhost:<port>` in the browser or using tools like Postman
 - Use `console.log()` to debug and log server activity.
 
-- routing play with routes and extentions.
-- Install postman and use it. with all methods.
-- workspace/collection - test api calls. 
-- try examples with get , POST , put and delete calls
-- try in postman.
-- try  params  with ? + and regex
+
 
 
 
